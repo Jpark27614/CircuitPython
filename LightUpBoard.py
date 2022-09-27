@@ -1,3 +1,4 @@
+"Light up board"
 import board
 import neopixel
 

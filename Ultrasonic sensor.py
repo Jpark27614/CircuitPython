@@ -6,7 +6,7 @@ import neopixel
 import simpleio
 
 dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
-dot.brightness = 0.5 
+dot.brightness = 0.1
 
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
 

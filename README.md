@@ -45,7 +45,6 @@ Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlyb
 No Wiring
 
 ### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
 
 This assignment was a good lesson in code and importing libraries. I learned to not crowd my circuit py with thousands of libraries and instead select individual ones. Also to find the libraries on the internet or assigment. I also learned about the different RGB colors and values with the line dot.fill((Red, Green, Blue)). overall this assignment was fun and a good into to circuit py.
 
@@ -55,19 +54,60 @@ This assignment was a good lesson in code and importing libraries. I learned to 
 
 ### Description & Code
 
-```python
-Code goes here
+For this assignment we were assigned to make a servo go back and forth 180 and for the spicy part to make it move with a button.
 
+```python
+"""CircuitPython Essentials Servo standard servo example"""
+import time
+import board
+import pwmio
+from adafruit_motor import servo #imports library
+from digitalio import DigitalInOut, Direction, Pull 
+
+
+btn1= DigitalInOut(board.D2)
+btn1.direction = Direction.INPUT
+btn1.pull = Pull.DOWN
+
+btn2= DigitalInOut(board.D3)
+btn2.direction = Direction.INPUT
+btn2.pull = Pull.DOWN
+
+
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.D9, duty_cycle=2 ** 15, frequency=100)
+
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm, min_pulse=500, max_pulse=2500)
+
+angle = 90
+
+while True:
+    if btn1.value and angle <180: # states the condition of the if statement
+        print("button 1 pressed") #prints to serial monitor
+        angle = angle +5 
+        my_servo.angle = angle
+        time.sleep(0.1) #controls how much the servo moves
+    elif btn2.value and angle >0:
+        print("button 2 pressed")
+        angle = angle -5
+        my_servo.angle = angle 
+        time.sleep(0.1)
+    else:
+        print("servo off")
+        time.sleep(0.1)
+  
 ```
 
 ### Evidence
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+https://user-images.githubusercontent.com/113122312/193072135-81b0ef1a-f0c4-47f9-9056-ee5ba5955ba4.mp4
+
 
 ### Wiring
 
-### Reflection
 
+### Reflection
 
 
 

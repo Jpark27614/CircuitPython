@@ -47,6 +47,7 @@ No Wiring
 ### Reflection
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
 
+This assignment was a good lesson in code and importing libraries. I learned to not crowd my circuit py with thousands of libraries and instead select individual ones. Also to find the libraries on the internet or assigment. I also learned about the different RGB colors and values with the line dot.fill((Red, Green, Blue)). overall this assignment was fun and a good into to circuit py.
 
 
 

@@ -11,12 +11,22 @@ This repository will actually serve as a aid to help you get started with your o
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
+We were assigned to make the board light up and control the color of it. It also introduced importing libraries and an intro to circuit python.
 
 Here's how you make code look like code:
 
 ```python
-Code goes here
+"Light up board"
+import board
+import neopixel
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.5 
+
+print("Make it red!")
+
+while True:
+    dot.fill((204, 0, 153))
 
 ```
 

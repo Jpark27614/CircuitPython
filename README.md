@@ -33,9 +33,7 @@ while True:
 
 ### Evidence
 
-
-![spinningMetro_Optimized](https://user-images.githubusercontent.com/54641488/192549584-18285130-2e3b-4631-8005-0792c2942f73.gif)
-
+![unnamed](https://user-images.githubusercontent.com/113122312/193068923-696fccd2-2f26-430c-8853-429a9b058300.jpg)
 
 And here is how you should give image credit to someone, if you use their work:
 

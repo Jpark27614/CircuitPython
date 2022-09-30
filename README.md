@@ -106,10 +106,11 @@ https://user-images.githubusercontent.com/113122312/193072135-81b0ef1a-f0c4-47f9
 
 ### Wiring
 
+![Magnificent Esboo-Fulffy](https://user-images.githubusercontent.com/113122312/193298186-b576e8db-4a3c-4f32-9f25-337945b12ca3.png)
 
 ### Reflection
 
-
+This assignment was very challenging and reinversed me into coding again. I was still ajusting to python so I used a refrence online using the adafruit website. For the button I had to learn how to code buttons in python with the help of the adafruit website and peers (mostly matthew) once I knew the buttons were working I inputed the condition (<180) and how much the servo moves (angle=angle+5) after that it was still iffy so I asked Mr. H for help. This assignment was informative and very challenging, it was a good assignment for python and I now know a lot more about python.
 
 ## CircuitPython_LCD
 

@@ -116,34 +116,127 @@ This assignment was very challenging and reinversed me into coding again. I was 
 
 ### Description & Code
 
-```python
+We were assigned to use an LCD backpack to count the number of times the button was pressed and (in this case) if the switch was "up" or "down"
 
+```python
+import board
+
+#input libraries
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+from digitalio import DigitalInOut, Direction, Pull 
+
+#sets buttons and switch as Inputs 
+btn= DigitalInOut(board.D9)
+btn.direction = Direction.INPUT
+btn.pull = Pull.DOWN
+
+switch = DigitalInOut(board.D10)
+switch.direction = Direction.INPUT
+switch.pull = Pull.UP
+
+# get and i2c object
+i2c = board.I2C()
+
+# some LCDs are 0x3f... some are 0x27.
+lcd = LCD(I2CPCF8574Interface(i2c, 0x3f), num_rows=2, num_cols=16)
+
+value = 0 #sets the value to 0 to count up from there
+SwitchState = switch.value
+
+lcd.print("Button:") 
+lcd.set_cursor_pos(0,8) #sets position of the LCD in the 2 by 16 grid
+
+prev_state = btn.value
+
+while True: #sets button to add up and not count when held down
+    cur_state = btn.value
+    if cur_state != prev_state:
+        if not cur_state:
+            value+=1
+            lcd.set_cursor_pos(0,8)
+            lcd.print(str(value))
+    if switch.value == True: # prints switch is up if switch value is true
+      lcd.set_cursor_pos(1,0)
+      lcd.print("Up  ")
+    else: #if the switch isn't true then it prints "down"
+      lcd.set_cursor_pos(1,0) 
+      lcd.print("Down")
+
+    prev_state = cur_state
+ 
 
 ```
 
 ### Evidence
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+https://user-images.githubusercontent.com/113122312/197560238-b7a8103e-4618-45dc-b2e6-a44944bc3f0a.mp4
+
 
 ### Wiring
+
+![Screenshot 2022-10-24 111225](https://user-images.githubusercontent.com/113122312/197561563-2dc43b58-a914-4b52-9279-a19577b89128.png)
+
 
 ### Reflection
 
+This assignment was challenging but fun, I definitly needed outsdide help. One problem I faced was working with the libraries and getting familiar with the code for the LCD. Another was after I did it in the serial monitor I had to move it to the LCD; I fixed this by instead of Serial.print I used lcd.print and then set a coordinate on the LCD. I also had trouble making sure that the button only counts once when held down, I asked Matthew to help me and I used prev and current state to make sure when it reads the last state if it's different then it stops counting. Lastly I had issues with printing the switch but then I learned that it is very similar to the button. Overall this assignment helped me to better understand LCDs and printing & reading values.
 
+## CircuitPython_Ultrasonic_Sensor
 
-
-
-## NextAssignment
 
 ### Description & Code
 
+For this assignment we were supposed to make the board light up different colors based on the different distances from the LCD. For the spicy part we were supposed to keep these colors but make it fade from the RGB values.
+
 ```python
-Code goes here
+"ultrasonic sensor"
+#imports variable
+import time
+import board
+import adafruit_hcsr04
+import neopixel
+import simpleio
+
+#connects to board light
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.1
+
+#sets pins for sensor
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+
+while True:
+    try:
+        cm=int(sonar.distance)
+        print((cm,))
+    except RuntimeError:  
+        print("Retrying!") #print to monitor
+    time.sleep(0.1)
+
+    if cm >= 0 and cm <=20: #shows range of the if satement
+         x=simpleio.map_range(cm, 5, 20, 0, 255) #maps one value to another
+         red=255-x
+         green=0
+         blue=x
+         dot.fill((red,green,blue)) #fades colors
+    
+    elif cm >20: 
+        y=simpleio.map_range(cm, 20,35, 0, 255)
+        blue=255-y
+        red=0
+        green=y
+        dot.fill((red,green,blue))
+    elif cm> 35:
+        dot.fill((0,255,0))
+
 
 ```
 
 ### Evidence
 
+![ezgif-1-1bf9b3c9d8](https://user-images.githubusercontent.com/113122312/197564301-66d1a245-6b8b-4826-96ff-5e0ea7abb789.gif)
+
 ### Wiring
+(https://user-images.githubusercontent.com/113122357/197229576-1ee94bfb-3387-4934-84f3-4033f21a40d9.png)
 
 ### Reflection

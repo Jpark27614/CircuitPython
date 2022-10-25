@@ -299,4 +299,4 @@ For this assignment we were supposed to make a short pump cylinder (I think its 
 This is the first part of the multi-part variation for question 1.
 
 ### Reflection 
-
+At first this assignment was easy and I eased through the first version of the part. I then realized that for the second and future parts things would be more difficult. I had made all the parts match the dimension, mass, and shape but things were not constrained to each other causing the model to break when you only change certain dimensions. After realizing this I went back into my first version to make edits and constraints so that if one part changed all of it wouldn't fall apart. If i were to give advice for this it would be that when dealing with changing dimensions and creating different versions is to have a solid model (won't break apart if changed) before you move on to make your life much easier. Some shortucts I used were extrude (shift e), Sketch (Shift S), and dimension (d). Overall, this assignment was a good review on my CAD skills and remebering to take time on assignments. 

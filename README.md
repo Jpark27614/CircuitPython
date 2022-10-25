@@ -293,3 +293,10 @@ For this assignment we were supposed to make a short pump cylinder (I think its 
 
 ### Evidence
 [onshape link](https://cvilleschools.onshape.com/documents/c6bc30965191b21950aa4399/w/85c31e2687ec6b862d847b91/e/43fe496ea4a1081010ce4f98)
+
+### Image
+![image](https://user-images.githubusercontent.com/113122312/197821435-fc5c88e4-37fa-4a49-bbe6-d46db9cd46a7.png)
+This is the first part of the multi-part variation for question 1.
+
+### Reflection 
+

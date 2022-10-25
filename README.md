@@ -257,7 +257,7 @@ For this assignment we were assigned to a partner to create a launcher splitting
 
 ### Evidence 
 
-[onshape link](#https://cvilleschools.onshape.com/documents/48111212671d7a3e3e18628f/w/cebe40ddfbbd8f11bf9459b8/e/6bdc8776a13d74f69e66bf52)
+[onshape link](https://cvilleschools.onshape.com/documents/48111212671d7a3e3e18628f/w/cebe40ddfbbd8f11bf9459b8/e/6bdc8776a13d74f69e66bf52)
 
 ### Image 
 

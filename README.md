@@ -35,11 +35,7 @@ while True:
 
 ![unnamed](https://user-images.githubusercontent.com/113122312/193068923-696fccd2-2f26-430c-8853-429a9b058300.jpg)
 
-And here is how you should give image credit to someone, if you use their work:
-
-Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlybrkr=8931d0bc)
-
-
+This Image shows the light on the board changed to purple with different RBG values.
 
 ### Wiring
 No Wiring
@@ -237,8 +233,10 @@ while True:
 ![ezgif-1-1bf9b3c9d8](https://user-images.githubusercontent.com/113122312/197564301-66d1a245-6b8b-4826-96ff-5e0ea7abb789.gif)
 
 ### Wiring
-(https://user-images.githubusercontent.com/113122357/197229576-1ee94bfb-3387-4934-84f3-4033f21a40d9.png)
-*credit to Dylan Halbert*
+
+<img src="blob:chrome-untrusted://media-app/07f7fb46-a54c-47fb-9bba-9b163d84751d" alt="Screenshot 2022-10-25 7.10.29 PM.png"/>![image](https://user-images.githubusercontent.com/113122312/197898996-b5848446-1252-4114-bee2-34fefa3b35e5.png)
+Credit to [Dylan Halbert](#github.com
+
 ### Reflection
 For the first part of this assignment it wans't that hard because it was just reading values from the sensor to print a color. For the second part it was a lot harder because I had to make the board fade through the colors. At first I was struggling a lot to get it to fade and didn't know I had to use maps. I asked Matthew for help and he explained how I need to map the values for the colors and use dot.fill((red, green,blue)) to fill in the colors to fade. Then, he explained the math of the RGB and the variables like x. The variables like x and 255 minus x are so that when 1 color goes up the other goes down. Also I was struggling with the condition but I learned you can put a limit in one line like cm >= 0 and cm <=20. Overall this assignment was difficult but informitive, it helped me to better understand maps and variables.
 

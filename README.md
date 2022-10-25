@@ -265,3 +265,23 @@ For this assignment we were assigned to a partner to create a launcher splitting
 
 
 ### Reflection
+
+This assignment was fun and a good break from the code we've been doing. I didn't face many problems but I did both student A and B work and was a good introduction to different tools like helix. Some of the shortcuts I used were shift S (sketch), Shift E (extrude), Z (zoom), N (face plane), double click (edit), etc. It also was a good review for branching which is making a seperate workspace while keeping the original version. Another thing I learned about were versions which are unchangable versions of a part. Overall I enjoyed this assignment and was a good intro to some of thebasics of CAD.
+
+## Swing Arm
+
+### Description
+
+For this assignment we were assigned to make a model of a swing arm in onshape using various drawings. We had to look at the different drawings to get dimensions for 1 part and we didn't always get the dimensions. We were also assigned to use variables to change it for questions later of the mass.
+
+### Evidence 
+
+[onshape link](https://cvilleschools.onshape.com/documents/efcf5fcaf99bab99c938eada/w/1c67b3247b1cedb6a6d5a15a/e/343a4fbd4c9014b738c86999)
+
+### Image 
+
+![image](https://user-images.githubusercontent.com/113122312/197815754-4ccbbfe5-5a25-4e65-ab54-68e39aa66dda.png)
+
+### Reflection
+
+This assignment was much more difficult because I am used to being directly given all the dimension. At first I had made the model with as many dimensions as posible and it made the model but didn't work in the long run. Mr. H later came to help me to fix the sketch because it was dimensioned but not constrained. This is a problem because in the later part of the assignment where you change the variables the model falls apart. I fixed this with  lots of coincidences (i), Tangents (t), and equals(e) by making the other parts equal or connected to each other to prevent blue lines and movement. One peice of advice i'd give for this assignment is to know what your doing before you start so you don't make unnesesary steps. Some shortcuts I used were Equal (e), Dimension (d), coincidence (i), circle (c), etc.

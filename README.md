@@ -98,6 +98,7 @@ while True:
 ### Evidence
 
 https://user-images.githubusercontent.com/113122312/193072135-81b0ef1a-f0c4-47f9-9056-ee5ba5955ba4.mp4
+
 This video shows a servo turning one way or another depending on the buttons and only turning when a button is pressed.
 
 ### Wiring
@@ -167,6 +168,7 @@ while True: #sets button to add up and not count when held down
 ### Evidence
 
 https://user-images.githubusercontent.com/113122312/197560238-b7a8103e-4618-45dc-b2e6-a44944bc3f0a.mp4
+
 This Video shows the LCD screen counting the number of button presse and whether the switch is "up" or "down"
 
 ### Wiring
@@ -231,7 +233,8 @@ while True:
 ### Evidence
 
 ![ezgif-1-1bf9b3c9d8](https://user-images.githubusercontent.com/113122312/197564301-66d1a245-6b8b-4826-96ff-5e0ea7abb789.gif)
-Thi gif shows the color change happening as the phone moves further away from the sensor.
+
+This gif shows the color change happening as the phone moves further away from the sensor.
 
 ### Wiring
 
@@ -262,6 +265,7 @@ For this assignment we were assigned to a partner to create a launcher splitting
 ### Image 
 
 ![image](https://user-images.githubusercontent.com/113122312/197812475-21b55cd1-3b50-4481-8774-6feef31210a7.png)
+
 This image shows the completed and assembled launcher.
 
 ### Reflection
@@ -281,6 +285,7 @@ For this assignment we were assigned to make a model of a swing arm in onshape u
 ### Image 
 
 ![image](https://user-images.githubusercontent.com/113122312/197815754-4ccbbfe5-5a25-4e65-ab54-68e39aa66dda.png)
+
 This shows the completed swing arm with the dimensions of the first question.
 
 ### Reflection
@@ -297,6 +302,7 @@ For this assignment we were supposed to make a short pump cylinder (I think its 
 
 ### Image
 ![image](https://user-images.githubusercontent.com/113122312/197821435-fc5c88e4-37fa-4a49-bbe6-d46db9cd46a7.png)
+
 This is the first part of the multi-part variation for question 1.
 
 ### Reflection 

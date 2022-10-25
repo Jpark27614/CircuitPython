@@ -5,7 +5,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [NextAssignmentGoesHere](#NextAssignment)
+* [CircuitPython Sensor](#NextAssignment)
 ---
 
 ## Hello_CircuitPython
@@ -241,3 +241,10 @@ while True:
 *credit to Dylan Halbert*
 ### Reflection
 For the first part of this assignment it wans't that hard because it was just reading values from the sensor to print a color. For the second part it was a lot harder because I had to make the board fade through the colors. At first I was struggling a lot to get it to fade and didn't know I had to use maps. I asked Matthew for help and he explained how I need to map the values for the colors and use dot.fill((red, green,blue)) to fill in the colors to fade. Then, he explained the math of the RGB and the variables like x. The variables like x and 255 minus x are so that when 1 color goes up the other goes down. Also I was struggling with the condition but I learned you can put a limit in one line like cm >= 0 and cm <=20. Overall this assignment was difficult but informitive, it helped me to better understand maps and variables.
+
+# CAD
+
+## Table of contents
+* [Launcher](#launcher)
+* [Swing Arm](#Swing Arm)
+* [Multi Part Studio](#Multi Part Studio)

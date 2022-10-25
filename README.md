@@ -98,7 +98,7 @@ while True:
 ### Evidence
 
 https://user-images.githubusercontent.com/113122312/193072135-81b0ef1a-f0c4-47f9-9056-ee5ba5955ba4.mp4
-
+This video shows a servo turning one way or another depending on the buttons and only turning when a button is pressed.
 
 ### Wiring
 
@@ -167,7 +167,7 @@ while True: #sets button to add up and not count when held down
 ### Evidence
 
 https://user-images.githubusercontent.com/113122312/197560238-b7a8103e-4618-45dc-b2e6-a44944bc3f0a.mp4
-
+This Video shows the LCD screen counting the number of button presse and whether the switch is "up" or "down"
 
 ### Wiring
 
@@ -231,11 +231,13 @@ while True:
 ### Evidence
 
 ![ezgif-1-1bf9b3c9d8](https://user-images.githubusercontent.com/113122312/197564301-66d1a245-6b8b-4826-96ff-5e0ea7abb789.gif)
+Thi gif shows the color change happening as the phone moves further away from the sensor.
 
 ### Wiring
 
-<img src="blob:chrome-untrusted://media-app/07f7fb46-a54c-47fb-9bba-9b163d84751d" alt="Screenshot 2022-10-25 7.10.29 PM.png"/>![image](https://user-images.githubusercontent.com/113122312/197898996-b5848446-1252-4114-bee2-34fefa3b35e5.png)
-Credit to [Dylan Halbert](#github.com
+![Screenshot 2022-10-24 111225](https://user-images.githubusercontent.com/113122312/197898996-b5848446-1252-4114-bee2-34fefa3b35e5.png)
+
+Credit to [Dylan Halbert](github.com/dhalber11/CiruitPython)
 
 ### Reflection
 For the first part of this assignment it wans't that hard because it was just reading values from the sensor to print a color. For the second part it was a lot harder because I had to make the board fade through the colors. At first I was struggling a lot to get it to fade and didn't know I had to use maps. I asked Matthew for help and he explained how I need to map the values for the colors and use dot.fill((red, green,blue)) to fill in the colors to fade. Then, he explained the math of the RGB and the variables like x. The variables like x and 255 minus x are so that when 1 color goes up the other goes down. Also I was struggling with the condition but I learned you can put a limit in one line like cm >= 0 and cm <=20. Overall this assignment was difficult but informitive, it helped me to better understand maps and variables.
@@ -260,7 +262,7 @@ For this assignment we were assigned to a partner to create a launcher splitting
 ### Image 
 
 ![image](https://user-images.githubusercontent.com/113122312/197812475-21b55cd1-3b50-4481-8774-6feef31210a7.png)
-
+This image shows the completed and assembled launcher.
 
 ### Reflection
 
@@ -279,6 +281,7 @@ For this assignment we were assigned to make a model of a swing arm in onshape u
 ### Image 
 
 ![image](https://user-images.githubusercontent.com/113122312/197815754-4ccbbfe5-5a25-4e65-ab54-68e39aa66dda.png)
+This shows the completed swing arm with the dimensions of the first question.
 
 ### Reflection
 

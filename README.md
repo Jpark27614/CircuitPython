@@ -245,6 +245,8 @@ For the first part of this assignment it wans't that hard because it was just re
 # CAD
 
 ## Table of contents
-* [Launcher](#launcher)
+* [Launcher](#Launcher)
 * [Swing Arm](#Swing Arm)
 * [Multi Part Studio](#Multi Part Studio)
+
+## Launcher

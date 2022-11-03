@@ -5,7 +5,8 @@ This repository will actually serve as a aid to help you get started with your o
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [CircuitPython Sensor](#CircuitPython_Ultrasonic_Sensor)
+* [CircuitPython_Sensor](#CircuitPython_Ultrasonic_Sensor)
+* [CircuitPython_Motor_Control](#CircuitPython_Motor_Control)
 ---
 
 ## Hello_CircuitPython
@@ -244,6 +245,34 @@ Credit to [Dylan Halbert](github.com/dhalber11/CiruitPython)
 
 ### Reflection
 For the first part of this assignment it wans't that hard because it was just reading values from the sensor to print a color. For the second part it was a lot harder because I had to make the board fade through the colors. At first I was struggling a lot to get it to fade and didn't know I had to use maps. I asked Matthew for help and he explained how I need to map the values for the colors and use dot.fill((red, green,blue)) to fill in the colors to fade. Then, he explained the math of the RGB and the variables like x. The variables like x and 255 minus x are so that when 1 color goes up the other goes down. Also I was struggling with the condition but I learned you can put a limit in one line like cm >= 0 and cm <=20. Overall this assignment was difficult but informitive, it helped me to better understand maps and variables.
+
+## CircuitPython_Motor_Control
+
+### Descrition and code
+
+For this assignment we were assigned to make a DC motor spin with various speeds depending on the potentiometer value.
+
+```python
+#include <Wire.h>
+#include "utility/Adafruit_MS_PWMServoDriver.h"
+import time
+import board
+import simpleio 
+from analogio import AnalogIn
+from pwmio import PWMOut
+
+motor = PWMOut(board.D9)
+potentiometer = AnalogIn(board.A1)  # potentiometer connected to A1, power & ground
+
+while True:
+    
+    print((int(simpleio.map_range(potentiometer.value,0,65535,0,255))))
+    time.sleep(0.25)                 
+    motor.duty_cycle = potentiometer.value
+```
+
+###Evidence 
+
 
 # CAD
 

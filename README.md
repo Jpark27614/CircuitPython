@@ -28,9 +28,7 @@ print("Make it red!")
 
 while True:
     dot.fill((204, 0, 153))
-
 ```
-
 
 ### Evidence
 
@@ -271,10 +269,20 @@ while True:
     motor.duty_cycle = potentiometer.value
 ```
 
-###Evidence 
+### Evidence 
 
+https://user-images.githubusercontent.com/113122312/200005886-c3e4f449-846f-4d77-aea8-34ee9ccb3fe7.mp4
+
+### Wiring 
+
+![image](https://user-images.githubusercontent.com/113122312/200007281-ce9029e6-bb57-4de5-b853-c96ecfd6c43e.png)
+
+### Reflection
+
+This assignment was helpful and fairly easy. The harder part of this assignment was the wiring, I had to ask Mr. H for help because theres a chance that it could smoke and get really hot. The potentiometer and DC motor I was familiar with but I used my old engineering notebook which helped me a lot. For the code it was simple all you need is a map command and something to make the motor move. Overall this assignment was a good intro for cicuit py motors.
 
 # CAD
+
 
 ## Table of contents
 * [Launcher](#Launcher)

@@ -15,3 +15,5 @@ while True:
     print((int(simpleio.map_range(potentiometer.value,0,65535,0,255))))
     time.sleep(0.25)                 
     motor.duty_cycle = potentiometer.value
+
+    

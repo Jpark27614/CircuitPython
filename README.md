@@ -7,6 +7,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [CircuitPython_Sensor](#CircuitPython_Ultrasonic_Sensor)
 * [CircuitPython_Motor_Control](#CircuitPython_Motor_Control)
+* [CAD](##CAD)
 ---
 
 ## Hello_CircuitPython

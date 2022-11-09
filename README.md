@@ -310,7 +310,7 @@ This image shows the completed and assembled launcher.
 
 This assignment was fun and a good break from the code we've been doing. I didn't face many problems but I did both student A and B work and was a good introduction to different tools like helix. Some of the shortcuts I used were shift S (sketch), Shift E (extrude), Z (zoom), N (face plane), double click (edit), etc. It also was a good review for branching which is making a seperate workspace while keeping the original version. Another thing I learned about were versions which are unchangable versions of a part. Overall I enjoyed this assignment and was a good intro to some of thebasics of CAD.
 
-## Swing Arm
+## Swing_Arm
 
 ### Description
 
@@ -330,7 +330,7 @@ This shows the completed swing arm with the dimensions of the first question.
 
 This assignment was much more difficult because I am used to being directly given all the dimension. At first I had made the model with as many dimensions as posible and it made the model but didn't work in the long run. Mr. H later came to help me to fix the sketch because it was dimensioned but not constrained. This is a problem because in the later part of the assignment where you change the variables the model falls apart. I fixed this with  lots of coincidences (i), Tangents (t), and equals(e) by making the other parts equal or connected to each other to prevent blue lines and movement. One peice of advice i'd give for this assignment is to know what your doing before you start so you don't make unnesesary steps. Some shortcuts I used were Equal (e), Dimension (d), coincidence (i), circle (c), etc.
 
-## Multi Part Studio
+## Multi_Part_Studio
 
 ### Description 
 For this assignment we were supposed to make a short pump cylinder (I think its called) and use various constraints to make sure it stays intact for the next parts of the assignment. We were also supposed to not use and assembly and make it all in one Part Studio. 

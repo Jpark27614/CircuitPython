@@ -287,8 +287,8 @@ This assignment was helpful and fairly easy. The harder part of this assignment 
 
 ## Table of contents
 * [Launcher](#Launcher)
-* [Swing Arm](#Swing Arm)
-* [Multi Part Studio](#Multi Part Studio)
+* [Swing Arm](#Swing_Arm)
+* [Multi Part Studio](#Multi_Part_Studio)
 
 ## Launcher
 

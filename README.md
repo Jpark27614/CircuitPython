@@ -345,3 +345,18 @@ This is the first part of the multi-part variation for question 1.
 
 ### Reflection 
 At first this assignment was easy and I eased through the first version of the part. I then realized that for the second and future parts things would be more difficult. I had made all the parts match the dimension, mass, and shape but things were not constrained to each other causing the model to break when you only change certain dimensions. After realizing this I went back into my first version to make edits and constraints so that if one part changed all of it wouldn't fall apart. If i were to give advice for this it would be that when dealing with changing dimensions and creating different versions is to have a solid model (won't break apart if changed) before you move on to make your life much easier. Some shortucts I used were extrude (shift e), Sketch (Shift S), and dimension (d). Overall, this assignment was a good review on my CAD skills and remebering to take time on assignments. 
+
+## Onshape_Assemblies
+
+### Description
+For this assignment we were supposed to complete an Onshape tutorial given to us through email.
+
+### Evidence
+![image](https://user-images.githubusercontent.com/113122312/201377194-c1927582-482d-488a-9b26-5593ac2001a8.png)
+
+![image](https://user-images.githubusercontent.com/113122312/201377701-f99c741c-6897-4790-88dd-065af734784f.png)
+
+![image](https://user-images.githubusercontent.com/113122312/201378145-d1c8cf75-0f6b-496b-8f12-7a3fee08722f.png)
+
+### Reflection 
+This assignment was a good tutorial for many basics of onshape relating to assemblies. There were definetly many things I already knew and it was review but others I learned which were useful. I learned alot about the different mates and I now know how to use them which is really usefull for future assemblies. Some of the main ones I learned was the slider mate (allows sliding on a line), Cylindrical (allows veritcle and revolutionary movement), and ball move (allows movement in any direction). Another useful thing I learned about was subassemblies; you can make a smaller assembly to import into the big one and it is useful for cleanliness and giving certain assemblies different functions. You can also move different items into these subassemblies and import the whole assembly making it very easy for the main one. Overall this assignment was informative but a little slow, I would recomend speeding up the videos and turning on captions. Another part of thsi assignment that I liked was the interactrive onshape assemblies which helpeds me to grasp the differnet teaachings.

@@ -360,3 +360,55 @@ For this assignment we were supposed to complete an Onshape tutorial given to us
 
 ### Reflection 
 This assignment was a good tutorial for many basics of onshape relating to assemblies. There were definetly many things I already knew and it was review but others I learned which were useful. I learned alot about the different mates and I now know how to use them which is really usefull for future assemblies. Some of the main ones I learned was the slider mate (allows sliding on a line), Cylindrical (allows veritcle and revolutionary movement), and ball move (allows movement in any direction). Another useful thing I learned about was subassemblies; you can make a smaller assembly to import into the big one and it is useful for cleanliness and giving certain assemblies different functions. You can also move different items into these subassemblies and import the whole assembly making it very easy for the main one. Overall this assignment was informative but a little slow, I would recomend speeding up the videos and turning on captions. Another part of thsi assignment that I liked was the interactrive onshape assemblies which helpeds me to grasp the differnet teaachings.
+
+# Code Part 2
+
+## Temperature sensor 
+
+### Description and code 
+For this assignment we were assigned to print "cold, perfect or hot" based on the temperatures of the sensor.
+
+```python
+
+import time
+import board
+import analogio 
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+i2c = board.I2C()
+lcd = LCD(I2CPCF8574Interface(i2c, 0x3f), num_rows=2, num_cols=16)
+
+sensor=analogio.AnalogIn(board.A0)
+
+def tempOut (x):
+    if x > 79:
+        return "Too hot"
+    if 77 < x < 79 :
+        return "nice"
+    if x < 77:
+        return "Brrr it's cold"
+
+while True:
+    celcius= (((sensor.value/19859.0909091)*1000)-500)/10
+    farenheit= (celcius*9/5)+32
+
+    lcd.print(tempOut(farenheit))
+    lcd.set_cursor_pos(1,0)
+    print(str(farenheit))
+    time.sleep(.05)
+    lcd.clear()
+    
+```
+## Evidence 
+
+https://user-images.githubusercontent.com/113122312/227981461-31610f53-0d8f-4e05-8ba5-c9bb21450ada.MOV
+
+## Wiring 
+
+![Capture](https://user-images.githubusercontent.com/113122312/227987295-7a60463d-3927-4f7f-bf9d-911642b45de6.PNG)
+
+## Reflection
+
+This assignment was not too challenging and introduced me to range. This assignment was pretty basic code wise but it did involve some math for celius and farenheit: celcius= (((sensor.value/19859.0909091)*1000)-500)/10
+

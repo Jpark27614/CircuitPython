@@ -410,5 +410,120 @@ https://user-images.githubusercontent.com/113122312/227981461-31610f53-0d8f-4e05
 
 ## Reflection
 
-This assignment was not too challenging and introduced me to the range function in Python. This assignment was pretty basic code wise but it did involve some math for celius and farenheit: celcius= (((sensor.value/19859.0909091)*1000)-500)/10 and farenheit= (celcius*9/5)+32 this involved the formulas for celcius and farenheit (which I found on google) and the variables from the sensor and voltage. Overall this assignment was a simple way to introduce a new sensor and will be helpful for future projects.
+This assignment was challenging and introduced me to the range function in Python. This assignment was pretty basic code wise but it did involve some math for celius and farenheit: celcius= (((sensor.value/19859.0909091)*1000)-500)/10 and farenheit= (celcius*9/5)+32 this involved the formulas for celcius and farenheit (which I found on google) and the variables from the sensor and voltage. I was still not 100% on the code commands so I got help from the internet and [Paul](https://github.com/Pweder69/CircuitPython) Overall this assignment was a good way to introduce a new sensor and will be helpful for future projects.
+
+## Rotary encoder
+
+## Description and code
+
+For this assignment we were tasked to make an LCD display, Red, Yellow, or Green using a  rotary encoder and an array. We were also supposed to make the correct lights turn on and off when a button is pressed.
+
+```python 
+import rotaryio
+import time
+import board
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+import digitalio
+import neopixel
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.5 
+
+i2c = board.I2C()
+lcd = LCD(I2CPCF8574Interface(i2c, 0x3f), num_rows=2, num_cols=16)
+
+
+enc = rotaryio.IncrementalEncoder(board.D9, board.D8,2)
+last_position = None
+
+encBtn = digitalio.DigitalInOut(board.D7)
+encbtn = digitalio.Direction.INPUT
+encbtn  = digitalio.Pull.UP
+
+global prevState
+
+def btnControl(buttonVal ,out):
+    global prevState
+    if buttonVal and buttonVal != prevState:
+        prevState = True
+        if out == 0:
+            dot.fill((255,0,0))
+        elif out == 1:
+                dot.fill((255,255,0))
+        else:
+                dot.fill((0,255,0))
+    elif  not buttonVal:
+        prevState = False
+     
+        
+
+def retEnc(x):
+    array = ["stop","caution","go"] 
+    output = x%3
+    btnControl(encBtn.value,output)
+    return array[output]
+
+
+
+
+while True:
+    lcd.print(retEnc(enc.position))
+    time.sleep(.05)
+    lcd.clear()
+    print(f"{retEnc(enc.position)} {enc.position} {encBtn.value}")
+```
+    
+From [Paul Weder](https://github.com/Pweder69/CircuitPython)
+
+## Evidence 
+
+## Wiring 
+
+![Screenshot 2023-03-29 6 23 12 PM](https://user-images.githubusercontent.com/113122312/228681141-60d64fc1-656b-46e3-b487-be3014dc983c.png)
+from [canvas](https://cvilleschools.instructure.com/courses/37129/assignments/514319)
+
+![Screenshot 2023-03-29 6 29 21 PM](https://user-images.githubusercontent.com/113122312/228682209-61f189f5-6434-4f74-980b-c6ba4c7f70ba.png)
+*didn't have rotary encoder on tinkercad*
+
+## Reflection 
+I didn't completly finish this assignment due to time restrictions but I did learn a few things. For example I learned how the array command works with the line, array = ["stop","caution","go"] which basically gives out a random output. Addditionally, to read these you need this line, output = x%3 (divided by 3 in this example) to show there are 3 different variables which the array produces. This assignment also renewed and locked in my knowledge of the LCD with commands like sleep and clear. Overall this assignment was difficult but if I wasn't caught up with my robot arm would be able to acheive.
+
+## Phtoto-Interrupter
+
+## Description and Code
+For this assignment we were assigned to make an LCD print how many times a photointerrupter has been interuppted. One thing about this assignment is that we were tasked to use the time.monotonic() instead of sleep().
+
+```python
+import time
+import digitalio
+import board
+
+photoI = digitalio.DigitalInOut(board.D7)
+photoI.direction = digitalio.Direction.INPUT
+photoI.pull = digitalio.Pull.UP
+
+last_photoI = True
+last_update = -4
+
+photoICrosses = 0
+
+while True:
+    if time.monotonic()-last_update > 4:
+        print(f"The number of crosses is {photoICrosses}")
+        last_update = time.monotonic()
+    
+    if last_photoI != photoI.value and not photoI.value:
+        photoICrosses += 1
+    last_photoI = photoI.value
+```
+from [River Lewis](https://github.com/rivques/CircuitPython)
+
+## Evidence
+
+## Wiring
+
+![Screenshot 2023-03-29 10 21 44 PM](https://user-images.githubusercontent.com/113122312/228711571-9069fe6d-12e7-4f94-989c-8a6d32102e1e.png)
+
+## Reflection
 

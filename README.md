@@ -478,6 +478,11 @@ From [Paul Weder](https://github.com/Pweder69/CircuitPython)
 
 ## Evidence 
 
+https://user-images.githubusercontent.com/113122312/228878419-eeb6ee13-e4dc-4017-8130-15ca412da687.mov
+
+From [Paul Weder](https://github.com/Pweder69/CircuitPython)
+ 
+
 ## Wiring 
 
 ![Screenshot 2023-03-29 6 23 12 PM](https://user-images.githubusercontent.com/113122312/228681141-60d64fc1-656b-46e3-b487-be3014dc983c.png)
@@ -524,6 +529,9 @@ from [River Lewis](https://github.com/rivques/CircuitPython)
 ## Wiring
 
 ![Screenshot 2023-03-29 10 21 44 PM](https://user-images.githubusercontent.com/113122312/228711571-9069fe6d-12e7-4f94-989c-8a6d32102e1e.png)
+*No photo-interrupter in tinkercad* 
+![Inkedphotoint05](https://user-images.githubusercontent.com/113122312/228884183-8e19d09a-aec4-444f-8eee-c57cb055fed5.jpg)
 
 ## Reflection
 
+Again for this assignment I was unable to complete it because I was busy with my robot arm. I did however learn a new line of code, time.monotonic() which acts as a delay but uses seconds instead of milliseconds. We did do this assignment last year and for the car racing and it is very simple and works like many other sensors. Overall if I had more time I would finish this and I plan too in the next quarter.

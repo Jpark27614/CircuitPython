@@ -534,4 +534,4 @@ from [River Lewis](https://github.com/rivques/CircuitPython)
 
 ## Reflection
 
-Again for this assignment I was unable to complete it because I was busy with my robot arm. I did however learn a new line of code, time.monotonic() which acts as a delay but uses seconds instead of milliseconds. We did do this assignment last year and for the car racing and it is very simple and works like many other sensors. Overall if I had more time I would finish this and I plan too in the next quarter.
+Again for this assignment I was unable to complete it because I was busy with my robot arm. I did however learn a new line of code, time.monotonic() which is the time from when the program starts. We did do this assignment last year and for the car racing and it is very simple and works like many other sensors. Overall if I had more time I would finish this and I plan too in the next quarter.

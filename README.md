@@ -400,21 +400,21 @@ while True:
     lcd.clear()
     
 ```
-## Evidence 
+### Evidence 
 
 https://user-images.githubusercontent.com/113122312/227981461-31610f53-0d8f-4e05-8ba5-c9bb21450ada.MOV
 
-## Wiring 
+### Wiring 
 
 ![Capture](https://user-images.githubusercontent.com/113122312/227987295-7a60463d-3927-4f7f-bf9d-911642b45de6.PNG)
 
-## Reflection
+### Reflection
 
 This assignment was challenging and introduced me to the range function in Python. This assignment was pretty basic code wise but it did involve some math for celius and farenheit: celcius= (((sensor.value/19859.0909091)*1000)-500)/10 and farenheit= (celcius*9/5)+32 this involved the formulas for celcius and farenheit (which I found on google) and the variables from the sensor and voltage. I was still not 100% on the code commands so I got help from the internet and [Paul](https://github.com/Pweder69/CircuitPython) Overall this assignment was a good way to introduce a new sensor and will be helpful for future projects.
 
 ## Rotary encoder
 
-## Description and code
+### Description and code
 
 For this assignment we were tasked to make an LCD display, Red, Yellow, or Green using a  rotary encoder and an array. We were also supposed to make the correct lights turn on and off when a button is pressed.
 
@@ -476,14 +476,14 @@ while True:
     
 From [Paul Weder](https://github.com/Pweder69/CircuitPython)
 
-## Evidence 
+### Evidence 
 
 https://user-images.githubusercontent.com/113122312/228878419-eeb6ee13-e4dc-4017-8130-15ca412da687.mov
 
 From [Paul Weder](https://github.com/Pweder69/CircuitPython)
  
 
-## Wiring 
+### Wiring 
 
 ![Screenshot 2023-03-29 6 23 12 PM](https://user-images.githubusercontent.com/113122312/228681141-60d64fc1-656b-46e3-b487-be3014dc983c.png)
 from [canvas](https://cvilleschools.instructure.com/courses/37129/assignments/514319)
@@ -491,12 +491,12 @@ from [canvas](https://cvilleschools.instructure.com/courses/37129/assignments/51
 ![Screenshot 2023-03-29 6 29 21 PM](https://user-images.githubusercontent.com/113122312/228682209-61f189f5-6434-4f74-980b-c6ba4c7f70ba.png)
 *didn't have rotary encoder on tinkercad*
 
-## Reflection 
+### Reflection 
 I didn't completly finish this assignment due to time restrictions but I did learn a few things. For example I learned how the array command works with the line, array = ["stop","caution","go"] which basically gives out a random output. Addditionally, to read these you need this line, output = x%3 (divided by 3 in this example) to show there are 3 different variables which the array produces. This assignment also renewed and locked in my knowledge of the LCD with commands like sleep and clear. Overall this assignment was difficult but if I wasn't caught up with my robot arm would be able to acheive.
 
 ## Phtoto-Interrupter
 
-## Description and Code
+### Description and Code
 For this assignment we were assigned to make an LCD print how many times a photointerrupter has been interuppted. One thing about this assignment is that we were tasked to use the time.monotonic() instead of sleep().
 
 ```python
@@ -524,14 +524,25 @@ while True:
 ```
 from [River Lewis](https://github.com/rivques/CircuitPython)
 
-## Evidence
+### Evidence
 
-## Wiring
+### Wiring
 
 ![Screenshot 2023-03-29 10 21 44 PM](https://user-images.githubusercontent.com/113122312/228711571-9069fe6d-12e7-4f94-989c-8a6d32102e1e.png)
 *No photo-interrupter in tinkercad* 
 ![Inkedphotoint05](https://user-images.githubusercontent.com/113122312/228884183-8e19d09a-aec4-444f-8eee-c57cb055fed5.jpg)
 
-## Reflection
+### Reflection
 
 Again for this assignment I was unable to complete it because I was busy with my robot arm. I did however learn a new line of code, time.monotonic() which is the time from when the program starts. We did do this assignment last year and for the car racing and it is very simple and works like many other sensors. Overall if I had more time I would finish this and I plan too in the next quarter.
+
+## Onshape Certification 
+
+### Description
+Onshape certification is a acheivement to show your proficiency in onshape and is useful for job and college applications. For this test there are 2 sections, the first one is the modeling section. For the modeling section you model a onshape design given dimensions with drawings which is the most basic part of the test. For the next part of the modeling section we move onto a multipart studio to create with a series of drawings with dimensions. For the last part of the modeling section we assemble pre made parts in an assembly using drawings and different positions depending on the questions. For the next section, Knowledge Based, you have a series of multiple choice questions about the functions of onshape within a certain period. Although, you can use the internet for this part of the test which helped me a lot even if it took more time. 
+
+## Images 
+
+![Capture](https://user-images.githubusercontent.com/113122312/236253914-a7fced4a-6e49-47e0-950b-f41c2c133731.PNG)
+
+![Capture](https://user-images.githubusercontent.com/113122312/236253227-cd9d83e9-f9b8-4025-a676-10d4ac069711.PNG)

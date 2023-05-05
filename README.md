@@ -541,8 +541,11 @@ Again for this assignment I was unable to complete it because I was busy with my
 ### Description
 Onshape certification is a acheivement to show your proficiency in onshape and is useful for job and college applications. For this test there are 2 sections, the first one is the modeling section. For the modeling section you model a onshape design given dimensions with drawings which is the most basic part of the test. For the next part of the modeling section we move onto a multipart studio to create with a series of drawings with dimensions. For the last part of the modeling section we assemble pre made parts in an assembly using drawings and different positions depending on the questions. For the next section, Knowledge Based, you have a series of multiple choice questions about the functions of onshape within a certain period. Although, you can use the internet for this part of the test which helped me a lot even if it took more time. 
 
-## Images 
+### Images 
 
 ![Capture](https://user-images.githubusercontent.com/113122312/236253914-a7fced4a-6e49-47e0-950b-f41c2c133731.PNG)
 
 ![Capture](https://user-images.githubusercontent.com/113122312/236253227-cd9d83e9-f9b8-4025-a676-10d4ac069711.PNG)
+
+### Reflection
+This certification was fairly challenging but my preparation helped me to pass. The main thing I studied for was the modeling section because I knew that I could use the internet and it was hard to study for the knowledge based section. One thing I did to study the knowledge section was a practice test on canvas [here](cvilleschools.instructure.com/courses/37129/assignments/512109). For the Modeling section I knew that there were going to be 3 parts so I practiced the assignments on canvas for each part and made sure I understood why and how everyhting worked ( links for [Swing Arm](https://cvilleschools.onshape.com/documents/efcf5fcaf99bab99c938eada/w/1c67b3247b1cedb6a6d5a15a/e/343a4fbd4c9014b738c86999), [Multipart](https://cvilleschools.onshape.com/documents/e676390d0b4fd0878549d409/w/fb3cceec7411dcc9f09194ab/e/366a441d90b687b044b797e1), and [Assembly](https://cvilleschools.onshape.com/documents/cfb0fb62afc45218096aa35f/w/f5600d343805047fbba425ca/e/8fe74a9da84d47303a8fb45c)
